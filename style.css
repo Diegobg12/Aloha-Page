@@ -1,0 +1,66 @@
+*{
+    font-family: 'Cinzel', serif;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+  }
+
+
+.Container{
+
+    display: grid;
+    grid-template-columns: 25% 50% 25%;
+    text-align: center;
+
+    
+}
+
+.linkContainer{
+    grid-template-columns: 25% 25% 25% 25%;
+    padding: 10%;
+}
+.topLinks{
+    color: orangered;
+    
+}
+.flowers{
+    position: relative;
+}
+.bannerGirl{
+    position: absolute;
+    align-items: center;
+    top: 20%;
+    left: 50%;
+}
+
+
+.logo{
+    height: 60%;
+    width: 60%;
+}
+
+.car{
+    height: 30%;
+    width: 30%;
+}
+
+.bannerConteier{
+    color: white;
+    padding: 15% 1%;
+    background-image: url("Images/flower-bkgd.jpg");
+
+
+}
+
+.topBanner1{
+
+    font-size: 5mm;
+    text-align: center;
+
+}
+
+.topBanner2{
+
+    font-size: 20mm;
+    text-align: center;
+}
