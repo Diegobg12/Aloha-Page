@@ -1,3 +1,5 @@
+
+
 *{
     font-family: 'Cinzel', serif;
     font-size: 16px;
@@ -5,49 +7,64 @@
     padding: 0;
   }
 
+  @font-face {
+    font-family: Raleway-Light;
+    src: url(fonts/Raleway-Light.ttf);
+  }
 
-.Container{
+  @font-face {
+    font-family: Raleway-LightItalic;
+    src: url(fonts/Raleway-LightItalic.ttf);
+  }
 
-    display: grid;
-    grid-template-columns: 25% 50% 25%;
-    text-align: center;
 
-    
-}
 
-.linkContainer{
-    grid-template-columns: 25% 25% 25% 25%;
-    padding: 10%;
-}
+
 .topLinks{
-    color: orangered;
+    text-decoration: none; 
+    float: center;
+    padding: 2%;
+
     
 }
-.flowers{
-    position: relative;
-}
-.bannerGirl{
-    position: absolute;
-    align-items: center;
-    top: 20%;
-    left: 50%;
+
+a{
+    color: orangered;
+    padding: 0% 2%;
+    text-decoration: none;
+    font-family: Raleway-Light;
+    
 }
 
+
+header{
+    text-align: center;
+}
 
 .logo{
-    height: 60%;
-    width: 60%;
+    height: 66px;
+    width: 90px;
+    float: left;
+    left: 30px;
+    padding: 0% 4%; 
 }
 
-.car{
-    height: 30%;
-    width: 30%;
+.cart{
+    height: 55px;
+    width: 95px;
+    float: right;
+    padding: 1% 2%; 
 }
 
-.bannerConteier{
+.Banner{
     color: white;
     padding: 15% 1%;
-    background-image: url("Images/flower-bkgd.jpg");
+    background-image: url("images/banner-girl.png"), url("images/flower-bkgd.jpg");
+    background-repeat: no-repeat, no-repeat;
+    background-position: top;
+    b
+    background-size: 20%, 100%;
+    
 
 
 }
@@ -56,6 +73,8 @@
 
     font-size: 5mm;
     text-align: center;
+    text-shadow: 1px 1px #949494;
+    font-family: Raleway-Light;
 
 }
 
@@ -63,4 +82,8 @@
 
     font-size: 20mm;
     text-align: center;
+    text-shadow: 2px 2px #949494
+}
+.header{
+    padding: 10%, 0%;
 }
