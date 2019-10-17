@@ -1,11 +1,5 @@
 
 
-*{
-    font-family: 'Cinzel', serif;
-    font-size: 16px;
-    margin: 0;
-    padding: 0;
-  }
 
   @font-face {
     font-family: Raleway-Light;
@@ -17,13 +11,59 @@
     src: url(fonts/Raleway-LightItalic.ttf);
   }
 
+  @font-face {
+    font-family: Raleway-Medium;
+    src: url(fonts/Raleway-Medium.ttf);
+  }
 
+
+  @font-face {
+    font-family: Raleway-MediumItalic;
+    src: url(fonts/Raleway-MediumItalic.ttf);
+  }
+
+  @font-face {
+    font-family: PlayfairDisplay-Regular;
+    src: url(fonts/PlayfairDisplay-Regular.otf);
+  }
+
+  @font-face {
+    font-family: PlayfairDisplay-Italic;
+    src: url(fonts/PlayfairDisplay-Italic.otf);
+  }
+
+  @font-face {
+    font-family: PlayfairDisplay-BoldItalic;
+    src: url(fonts/PlayfairDisplay-BoldItalic.otf);
+  }
+
+  @font-face {
+    font-family: PlayfairDisplay-Bold;
+    src: url(fonts/PlayfairDisplay-Bold.otf);
+  }
+
+
+img{
+    width: 100%;
+    height: 80%;
+
+}
+
+
+
+  *{
+    font-family: 'Raleway-Light', serif;
+    font-size: 100%;
+    margin: 0;
+    padding: 0;
+  }
 
 
 .topLinks{
+    color: orangered;
     text-decoration: none; 
     float: center;
-    padding: 2%;
+    padding: 1.5%;
 
     
 }
@@ -36,6 +76,14 @@ a{
     
 }
 
+p{
+  font-family: 'Raleway-Light';
+  padding: 0.2%;
+  font-size: 100%;
+  
+
+}
+
 
 header{
     text-align: center;
@@ -43,7 +91,7 @@ header{
 
 .logo{
     height: 66px;
-    width: 90px;
+    width: 111px;
     float: left;
     left: 30px;
     padding: 0% 4%; 
@@ -62,9 +110,7 @@ header{
     background-image: url("images/banner-girl.png"), url("images/flower-bkgd.jpg");
     background-repeat: no-repeat, no-repeat;
     background-position: top;
-    b
-    background-size: 20%, 100%;
-    
+    background-size: 21%, 100%;
 
 
 }
@@ -84,6 +130,77 @@ header{
     text-align: center;
     text-shadow: 2px 2px #949494
 }
-.header{
-    padding: 10%, 0%;
+
+.hand{
+    font-size: 30px;
 }
+
+h2{
+    font-size: 150%;
+    font-family: 'PlayfairDisplay-Italic';
+    padding: 0% 20% 6% 20;
+}
+
+.hand{
+padding: 5% 20% 5% 20%;
+line-height: 113%;
+
+}
+span{
+    font-family: 'PlayfairDisplay-Bold';
+    font-size: 12mm;
+
+}
+
+.flex-container {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+
+  }
+
+  .flex-item {
+    background-image: url("images/mens-category.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: top;
+    padding: 2px;
+    width: 24%;
+    height: 50%;
+    margin-top: 1px;
+    line-height: 200px;
+    color: white;
+    font-size: 150%;
+    border: 1px solid;
+  }
+
+  .womens{
+    background-image: url("images/womens-category.jpg");
+  }
+  .trends{
+    background-image: url("images/trends-category.jpg");
+  }
+  .glasses{
+    background-image: url("images/glasses-category.jpg");
+  }
+
+  .sale{
+    background-image: url("images/sale-category.jpg");
+  }
+
+  .bags{
+    background-image: url("images/bags-category.jpg");
+  }
+
+
+   
+    @media screen and (max-width: 400px){
+   
+       body{
+           background-color: yellow;
+       }
+      
+   }
