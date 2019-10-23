@@ -2852,7 +2852,7 @@ td.event-table__time {
 }
 
 
-@media screen and ( min-width: 3000px ) {
+@media screen and ( min-width: 768px ) {
 
   .carousel--watch-css:after {
     content: '';
