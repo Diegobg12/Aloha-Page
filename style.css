@@ -292,44 +292,58 @@ span{
     width: 100%;
     list-style: none;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     flex-wrap: wrap;
+    height: 1010px;
+    
 
   }
 
   .flex-item {
-    background-image: url("images/mens-category.jpg");
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: white;
     background-size: 100%;
     background-repeat: no-repeat;
     background-position: top;
-    padding: 2px;
-    width: 24%;
+    width: 49%;
     height: 50%;
-    margin-top: 1px;
+    display: inline-block;
     line-height: 200px;
     color: white;
     font-size: 150%;
-    border: 1px solid;
+    font-family: "Raleway";
+    font-size: 500%;
+    text-shadow: 1px 1px #949494;
+    vertical-align: middle;
+    }
+
+  .men{
+    background-image: url("images/mens-category.jpg");
+
+    width: 100%;
+
   }
 
 
   .womens{
     background-image: url("images/womens-category.jpg");
+    width: 100%;
   }
   .trends{
     background-image: url("images/trends-category.jpg");
   }
   .glasses{
     background-image: url("images/glasses-category.jpg");
+    background-size: 100%;
   }
 
   .sale{
     background-image: url("images/sale-category.jpg");
+    background-size: 100%;
   }
 
   .bags{
     background-image: url("images/bags-category.jpg");
+    background-size: 100%;
   }
 
 /* MOST LOVED PRODUCTS SECTION */
