@@ -5,50 +5,55 @@
 
 <head>
     <title>Aloha</title>
-        <link rel="stylesheet" href="style.css">
-    
+    <link rel="stylesheet" href="meyerReset.css">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="flickity-docs/flickity.css">
+    <script src="flickity-docs/flickity.pkgd.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
+
+
 
 <body>
 
     
-    <header>           
+    <header class="container"> 
+        <div class=”logo”>
+        <img class=”sa” src="images/aloha-logo.svg" alt="logo">
+        </div>
 
         <nav>
-
-                    <img class="logo" src="images/aloha-logo.svg" alt="logo">
-
-                    <a href="">
-                            <img href="" class="cart" src="images/cart-icon.svg" alt="">
-                        </a>
-
-
-
-                     <div class="topLinks">
-                            <a href="">ABOUT</a>
-                            <a href="">SHOP</a>
-                            <a href="">FEATURED</a>
-                            <a href="">UPDATES</a>
+                   
+                     <ul>
+                        
+                            <li><a href="">ABOUT</a> </li>
+                            <li> <a href="">SHOP</a></li>
+                            <li> <a href="">FEATURED</a></li>
+                            <li> <a href="">UPDATES</a></li>
         
-                     </div> 
+                     </ul> 
+
         </nav>
+
+        <a href="">
+            <img class="cart" href="" src="images/cart-icon.svg" alt="">
+        </a>
     
 
-    <header>
+    </header>
 
 
     <article>
-
-
-
+        
         <section class="Banner">
+           
             
             <p class="topBanner1">NEW COLECTION</p>
             <p class="topBanner2">Spring/Summer 2016</p>
 
-
         </section>
+
+
 
 
         <section class="hand">
@@ -73,21 +78,73 @@
             </ul>
 
 
-
-        
         <section>
-
-
-
+                <h2>Most-Loved  <span> Product</span> </h2>
         </section>
 
 
-        <section>
 
+            <section class="main-carousel" data-flickity='{ "cellAlign": "left", "contain": true }'>
 
-        </section>
+                <div class="carousel-cell"> <img src="images/checked-stretch-dress.jpg" alt="checked-stretch-dress">
+                <h3>DRESSES</H3> 
+                <h4>Checked Stretch Dress</h4>
+                <h5>$129</H5> 
+                </div>
+                <div class="carousel-cell"><img src="images/blue-hipster-backpack.jpg" alt="blue-hipster-backpack">
+                <h3>DRESSES</H3> 
+                <h4>Checked Stretch Dress</h4>
+                <h5>$129</H5>
+                </div>
+                <div class="carousel-cell"><img src="images/stretch-knit-dress.jpg" alt="stretch-knit-dress">
+                <h3>DRESSES</H3> 
+                <h4>Checked Stretch Dress</h4>
+                <h5>$129</H5>                
+                </div>
+                <div class="carousel-cell"><img src="images/cotton-blue-shirt.jpg" alt="cotton-blue-shirt">
+                <h3>DRESSES</H3> 
+                <h4>Checked Stretch Dress</h4>
+                <h5>$129</H5>                
+                </div>
+                <div class="carousel-cell"><img src="images/cotton-yellow-tshirt.jpg" alt="cotton-yellow-tshirt">
+                <h3>DRESSES</H3> 
+                <h4>Checked Stretch Dress</h4>
+                <h5>$129</H5>              
+                </div>
+                <div class="carousel-cell"><img src="images/demin-overall-shorts.jpg" alt="demin-overall-shorts">
+                <h3>DRESSES</H3> 
+                <h4>Checked Stretch Dress</h4>
+                <h5>$129</H5>         
+                </div>
+                <div class="carousel-cell"><img src="images/blue-silk-dress.jpg" alt="demin-overall-shorts">
+               <h3>DRESSES</H3> 
+               <h4>Checked Stretch Dress</h4>
+                <h5>$129</H5>     
+                </div>
+                <div class="carousel-cell"><img src="images/pink-dotted-dress.jpg" alt="pink-dotted-dress">
+                <h3>DRESSES</H3> 
+                <h4>Checked Stretch Dress</h4>
+                <h5>$129</H5>    
+                </div>
+
+            </section>
+
     
-        <section>
+        <section class="siggup">
+                <h2>Sign-up for  <span> Uptdates</span> </h2>
+                <p>Stay updated on our lastest
+                    product releases, be first o find out about pcoming sales, 
+                    and get free style tips from our blog. Unsubscribe at any time.
+                </p>
+                <form class="subs">
+
+
+    
+                        <input type="text" name="email" placeholder="Your Email">
+                        <input type="submit" value="Subscribe">
+ 
+                </form>
+
     
     
                 
@@ -96,10 +153,39 @@
 
     </article>
 
-    <footer>
+    <footer> 
+        <p>
+                2016 Aloha Apparel Co.
+                Powered by HTML and CSS.
 
+        </p>
 
+        <p>
+            604-604-604. info@alohaapparel.com
+        </p>
+
+        <p>
+            <h6>
+                    1490 W Broadway
+            </h6>
+
+        </p>
+
+        <p>
+            <H6>
+                    Vancouver, BC, Canada
+            </H6>
+                
+            </p>
+
+            <a href="#" class="fa fa-facebook icons"></a>
+            <a href="#" class="fa fa-twitter icons "></a>
+            <a href="#" class="fa fa-instagram icons"></a>
+            <a href="#" class="fa fa-pinterest icons"></a>
+            <a href="#" class="fa fa-google icons"></a>
     </footer>
+
+
 </body>
 
 </html>
