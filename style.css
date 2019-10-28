@@ -103,25 +103,15 @@
 
 
 
-*{
-    font-family: 'Raleway', serif;
-    font-size: 14px;
-    margin: 0;
-    padding: 0;
-}
 
-a{
-    color: orangered;
-    text-decoration: none;
-    font-size: auto;
-    
-}
+
+
 
 p{
   font-family: 'Raleway';
   padding-top: 2%;
   padding-bottom: 2%;
-  font-size: 100%;
+
   font-weight: lighter;
   font-style: normal;
 
@@ -139,44 +129,57 @@ section{
   .container {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
     margin-left: auto;
     border-bottom: 1px solid #F2F2F2;
     padding: 2.3em 0;
     width: 100%;
     flex-wrap: wrap;
-
+    order: initial;
 
    }
 
    .logo {
-    margin-left: 5%;
-    width: auto;
+     width: 150px;
+     margin-left: 10px;
+    
    }
-
-
 
    .cart{
-    margin-left: 5%;
 
-
+    width: 60px;
+    margin-right: 10px;
+    align-self: flex-end;
    }
 
-   nav {
-    margin: 1.5em 0 0 5%;
+   .links {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
     justify-content: center;
+    align-items: center;
+    width: 100%;
+
    }
+
 
    header ul li {
     display: inline-block;
-    padding: 0 1.4em 0 0;
-    font-size: 1em;
+    display: flex;
+    flex-direction: row;
+
    }
 
    header ul li a {
     text-decoration: none;
-    color: #7D7C7D;
+    color: orangered;
+    font-size: auto;
+    font-family: 'Raleway';
    }
+
+
+
+
    h2{
     font-size: 12mm;
     font-family: 'Playfair Display';
@@ -371,7 +374,9 @@ span{
 }
 
 
-
+.shop{
+  widows: 100%;;
+}
 
 /* Set the background color of body to tan */
 
@@ -380,13 +385,23 @@ span{
 @media screen and (min-width: 600px)  {
     body {
         background: green;
+        font-size: 16px;
     }
+
+    .cart{
+      order: 1;
+     }
 }
 
 @media screen and (min-width: 1240px)  {
   body {
       background: red;
+      font-size: 16px;
   }
+
+  .cart{
+    order: 1;
+   }
 }
 
 
