@@ -301,7 +301,7 @@ hr{
 .topBanner2{
     font-family: 'Playfair Display';
     font-style: normal;
-    font-size: 40px;
+    font-size: 45px;
     text-align: center;
     text-shadow: 1px 0px #949494;
     text-align: center;
@@ -518,14 +518,16 @@ footer{
   @media screen and (min-width: 600px)  {
     body{
         font-size: 16px;
+        
     }
 
     .topBanner2{
 
-      font-size: 70px;
+      font-size: 80px;
       margin-top: 4%;
   
   }
+
 
   .carousel-cell {
     display: flex;
@@ -549,13 +551,13 @@ footer{
 
     .shop-item{
         width: 24%;
-        height: 49%;
+        height: 48%;
    
     }
 
     .item-big{
         width: 49%;
-        height: 49%;
+        height: 48%;
     }
     .Banner{
         height: 70%;

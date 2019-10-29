@@ -139,15 +139,31 @@
                                 product releases, be first o find out about coming sales, 
                                 and get free style tips from our blog. Unsubscribe at any time.
                             </p>
-                            <form id= "message-form" class="sub">
+                            <form id="message-form" class="sub">
 
-                                    <input type="text" placeholder="Your Email">
+                                    <input id= "email" style="border: 1px solid white;" type="email" placeholder="Your Email">
                                     <button onclick="myFunction()">Subscribe </button>
+                                </form>
+                                
                                 <script>
+                                    
                                 function myFunction() {
-                                 alert("Thanks for subscribing!");
-                                    }</script>
-                            </form>
+                                    // alert('Thank you for subscribe');
+                                 var email = document.getElementById('email').value;
+
+                                 if (email.match(/@/)){
+                                        alert('Thank you for subscribe');
+                                 }
+                                 else{
+                                    alert('please try again');
+                                 }
+                                }</script>
+
+                                   
+
+
+
+                            
                             
                     </section>
 
