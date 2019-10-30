@@ -17,7 +17,7 @@
 ## MAIN FILES
 
 + Main html `ìndex.html`
-+ Style is in `style.css` in Style folder
++ Style is in `style.css` 
 + Reset css from [Meyer Reset](https://meyerweb.com/eric/tools/css/reset/) `meyerReset.css`
 + Fonts folder
 + Flickity-docs for the carrousel get it from [Flikity](https://flickity.metafizzy.co)
