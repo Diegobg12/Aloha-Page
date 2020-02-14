@@ -38,8 +38,18 @@ Due the difference screen's types the project was developed using FLEX-BOX.
                              
                                
 ```
-2. Create Mobile version first 600px`.
+2. Create Mobile version first, width less than 600px`.
+
+
+
 ![alt text](Phone.png)
+
+
+
+
+
+
+
 
 3. In most cases every section use flexbox, so items adapt the screen size.
 
