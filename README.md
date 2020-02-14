@@ -1,10 +1,10 @@
 # Aloha-Page
- RED ACADEMY 1 project
 
+Homepage for an e-commerce the Aloha Apparel. This website implement responsive design which adapt to different kind of screens.
 
 ## DESCRIPTION
 
- This project follows the design of Aloha WEB PAGE from RED ACADEMY.
+ This project follows the design on the assest folder.
  According to the three images whose follows different screen's types.
 
 
@@ -14,18 +14,18 @@
 + Open `index.html` file
 + Enjoy it!
  
-## MAIN FILES
+## Technologies used
 
-+ Main html `ìndex.html`
++ [FlexBox](https://www.w3schools.com/css/css3_flexbox.asp): To create the layout of the main bar and product section.
 + Style is in `style.css` 
 + Reset css from [Meyer Reset](https://meyerweb.com/eric/tools/css/reset/) `meyerReset.css`
-+ Fonts folder
-+ Flickity-docs for the carrousel get it from [Flikity](https://flickity.metafizzy.co)
++ Flickity-docs for the carrousel get it from [Flickity](https://flickity.metafizzy.co).In order to follow the design requirements, the Flickity functionalities were downloaded and the customize the width of the box to get the correct view on each version.
++ Email validation using [JavaScript](https://www.javascript.com/)
 
 
 ## DEVELOPMENT STAGES
 
-Due the differents screen's types the project was developed using FLEX-BOX.
+Due the difference screen's types the project was developed using FLEX-BOX.
 
 1. Create the DOM the page should follow.
 
@@ -40,9 +40,9 @@ Due the differents screen's types the project was developed using FLEX-BOX.
 ```
 2. Create Mobile version first 600px`.
 
-3. In most cases every section use flex box, so items adapt the sceen's size.
+3. In most cases every section use flexbox, so items adapt the screen size.
 
-4. For feature part I used [Flikity](https://flickity.metafizzy.co) to create the products carrousel, download the files and follow the steps.
+4. For feature part I used [Flickity](https://flickity.metafizzy.co) to create the products carrousel, download the files and follow the steps.
 
 5. Adapt to tablet and desktop version with the follow queries
 ```
@@ -50,6 +50,10 @@ Due the differents screen's types the project was developed using FLEX-BOX.
 @media screen and (min-width: 1240px)  {  }
 
 ```
+## Take a look.
+![alt text](Phone.png)
+![alt text](desktop.png)
+![alt text](tablet.png)
 
 
 
