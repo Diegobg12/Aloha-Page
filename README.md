@@ -49,6 +49,8 @@ Due the difference screen's types the project was developed using FLEX-BOX.
 
 ``@media screen and (min-width: 600px)  {  }``
 ![alt text](tablet.png)
+
+
 ``@media screen and (min-width: 1240px)  {  }``
 ![alt text](desktop.png)
 
