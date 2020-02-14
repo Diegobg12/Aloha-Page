@@ -39,21 +39,21 @@ Due the difference screen's types the project was developed using FLEX-BOX.
                                
 ```
 2. Create Mobile version first 600px`.
+![alt text](Phone.png)
 
 3. In most cases every section use flexbox, so items adapt the screen size.
 
 4. For feature part I used [Flickity](https://flickity.metafizzy.co) to create the products carrousel, download the files and follow the steps.
 
 5. Adapt to tablet and desktop version with the follow queries
-```
-@media screen and (min-width: 600px)  {  }
-@media screen and (min-width: 1240px)  {  }
 
-```
-## Take a look.
-![alt text](Phone.png)
-![alt text](desktop.png)
+``@media screen and (min-width: 600px)  {  }``
 ![alt text](tablet.png)
+``@media screen and (min-width: 1240px)  {  }``
+![alt text](desktop.png)
+
+
+
 
 
 
