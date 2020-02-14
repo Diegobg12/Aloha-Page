@@ -1,10 +1,10 @@
 <html>
     <head>
-        <link rel="stylesheet" href="meyerReset.css">
+        <link rel="stylesheet" href="style/meyerReset.css">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="flickity-docs/flickity.css">
         <script src="flickity-docs/flickity.pkgd.js"></script>
-        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="style/style.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     </head>
 
@@ -144,30 +144,6 @@
                                     <input id= "email" style="border: 1px solid white;" type="email" placeholder="Your Email">
                                     <button onclick="myFunction()">Subscribe </button>
                                 </form>
-                                
-                                <script>
-                                    
-                                function myFunction() {
-                                    // alert('Thank you for subscribe');
-                                 let email = document.getElementById('email').value;
-                                 let top = document.getElementById("container")
-
-                                 if (email.match(/@/)){
-                                        alert('Thank you for subscribe');
-                                        document.body.scrollTop = 0;
-                                        document.documentElement.scrollTop = 0;
-                                 }
-                                 else{
-                                    alert('please try again');
-
-                                 }
-                                
-                                }</script>
-
-                                   
-
-
-
                             
                             
                     </section>
@@ -212,6 +188,7 @@
 
 
     </body>
+    <script src="js/index.js"></script>
 
 
 </html>
